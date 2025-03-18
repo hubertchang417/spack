@@ -14,6 +14,10 @@
 #   ~/.spack/packages.yaml
 # -------------------------------------------------------------------------
 packages:
+  or-tools:
+    externals:
+      - spec: or-tools@9.11
+        prefix: <modify the path to the or-tools>
   all:
     compiler: [gcc, clang, oneapi, xl, nag, fj, aocc]
     providers:

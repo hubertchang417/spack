@@ -11,4 +11,5 @@
 #   ~/.spack/repos.yaml
 # -------------------------------------------------------------------------
 repos:
+  - $spack/var/spack/repos/openroad_dev
   - $spack/var/spack/repos/builtin
