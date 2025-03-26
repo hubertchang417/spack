@@ -1,6 +1,6 @@
 from spack.package import *
 
-class Tclreadline(AutotoolsPackage):
+class TclReadline(AutotoolsPackage):
     """
     tclreadline is a readline extension for tcl shells.
     """
